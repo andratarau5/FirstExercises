@@ -28,6 +28,7 @@ public class Exercise2 {
             System.out.print(i+" ");
             if(System.currentTimeMillis()-x > 10000){
                 break;
+
             }
         }
     }
