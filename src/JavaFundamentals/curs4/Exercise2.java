@@ -3,6 +3,13 @@ package JavaFundamentals.curs4;
 import java.util.Scanner;
 
 public class Exercise2 {
+    /*
+    Write a code that reads from the console two positive numbers.
+    Then create a loop that counts from 1 until it is equal to the second read number and prints the number.
+    The increment is the first read number. The numbers are read inside main, and they are passed as parameters to another method.
+    Obs: Search what System.currentTimeMillis() does. Do you need it somewhere?
+    Stop the code after 10 seconds
+     */
     public static void main(String[] args){
         Scanner in=new Scanner(System.in);
 
